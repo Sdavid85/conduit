@@ -1,0 +1,25 @@
+Regisztráció: az alkalmazásba be lehet regisztrálni, név, emailcím és jelszó megadásával
+
+Bejelentkezés: az alkalmazásba be lehet jelentkezni egy meglévõ felhasználói fiókkal
+
+Kijelentkezés: az alkalmazásból ki lehet jelentkezni a logout gomb megnyomásával
+
+Új blog poszt feltöltése: új blog posztot lehet feltölteni cím, leírás és tartalom megadásával
+
+Bejegyzés tartalmának megtekintése: a bejegyzés tartalmát a read more gombra kattintva meg lehet tekinteni
+
+Saját bejegyzés szerkesztése: saját bejegyzés tartalmát az edit article gombra kattintva szerkeszteni lehet
+
+Saját bejegyzés törlése: saját bejegyzés törölhetõ a delete artical gomb használatával
+
+Keresés tag alapján: bejegyzések kereshetõk a popular tags mezõben kiválasztott tag alapján
+
+Más szerzõk követése: más szerzõk követhetõk a follow gomb használatával
+
+Blog feed tagolása: az alkalmazás meg tudja jeleníteni az elérhetõ bejegyzéseket oldalanként 10-sével.
+
+Bejegyzés kedvelése: bejegyzést kedvencnek lehet jelölni a kedvenc gomb használatával
+
+Kezdõlapra navigálás: a kezdõlapra lehet navigálni a home gomb megnyomásával
+
+

@@ -1,0 +1,42 @@
+Automatizálnám:
+
+A001: TC1, User regisztráció helyes adatokkal, felület automatizálás, mert rizikós és ismételt végrehajtást tartalmaz.
+
+A002: TC4, User login helyes adatokkal, felület automatizálás, mert rizikós és ismételt végrehajtást tartalmaz.
+
+A003: TC6, User logout, felület automatizálás, mert rizikós és ismételt végrehajtást tartalmaz.
+
+A004: TC7, Új blog poszt feltöltése minden mezõ kitöltésével, felület automatizálás, mert intenzív adatbevitelt tartalmaz.
+
+A005: TC9, Bejegyzés részletes nézete funkció, felület automatizálás, mert intenzív adatbevitelt tartalmaz.
+
+
+Nem automatizálnám:
+
+TC2: User regisztráció adatok nélkül, mert nem idõigényes és nincsenek ismétlõdõ lépések.
+
+TC3: User regsiztráció nem megfelelõ formátumú mail címmel, mert nem idõigényes és nincsenek ismétlõdõ lépések.
+
+TC5: User regisztráció adatok nélkül, mert nem idõigényes és nincsenek ismétlõdõ lépések.
+
+TC8: Új blog poszt feltöltése adatok nélkül, mert nem idõigényes és nincsenek ismétlõdõ lépések.
+
+TC10: Saját bejegyzés szerkesztése, mert nincsenek ismétlõdõ lépések.
+
+TC11: Saját bejegyzés törlése, mert nincsenek ismétlõdõ lépések.
+
+TC12: Saját bejegyzés törlése, mert alacsony rizikótartalmú.
+
+TC13: Más szerzõk követése, mert alacsony rizikótartalmú.
+
+TC14: Más szerzõk bejegyzéseinek követése, mert alacsony rizikótartalmú.
+
+TC15: Blog feed oldaltagolása 10-sével, mert alacsony rizikótartalmú.
+
+TC16: Home funkció mûködése, mert alacsony rizikótartalmú.
+
+TC17: Regisztráció már létezõ felhasználónévvel, mert nem idõigényes és nincsenek ismétlõdõ lépések.
+
+
+
+
