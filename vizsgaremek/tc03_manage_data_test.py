@@ -20,7 +20,6 @@ def test_add_data():
         driver.find_element_by_xpath('//*[@id="app"]/nav/div/ul/li[2]/a').click()
         time.sleep(3)
 
-
         # Fill input fields:
         def fill_login(mail, pw):
             email = driver.find_element_by_xpath('//*[@id="app"]//fieldset[1]/input')
@@ -31,16 +30,14 @@ def test_add_data():
             password.send_keys(pw)
             button.click()
 
-
-        fill_login("milvus1@example.com", "Abcd123$")
+        fill_login("milvus@example.com", "Abcd123$")
 
         time.sleep(2)
 
         new_articel = driver.find_element_by_xpath('//*[@id="app"]/nav/div/ul/li[2]/a').click()
         time.sleep(2)
 
-
-        def write_new_articel(title, about, content, tag):
+        def articel(title, about, content, tag):
             articel_title = driver.find_element_by_xpath('//*[@id="app"]//fieldset[1]/input')
             artical_about = driver.find_element_by_xpath('//*[@id="app"]//fieldset[2]/input')
             artical_content = driver.find_element_by_xpath('//*[@id="app"]//fieldset[3]/textarea')
@@ -51,15 +48,43 @@ def test_add_data():
             artical_about.send_keys(about)
             artical_content.send_keys(content)
             artical_tag.send_keys(tag)
+
             publish_button.click()
 
+        articel("Új bejegyzés", "Próba", "Megnézem működik-e", "test")
 
-        write_new_articel("Új bejegyzés", "Próba", "Megnézem működik-e", "test")
-
-        driver.find_element_by_xpath('//*[@id="app"]/div/div[1]/div/div/div/a').click()
+        driver.find_element_by_xpath('//*[@id="app"]/nav/div/ul/li[4]/a').click()
         time.sleep(2)
-        article_title = driver.find_element_by_xpath('//*[@id="app"]/div/div[2]/div/div/div[2]/div/div/div[1]/a/h1')
-        assert (article_title.text == new_article_title)
+
+        driver.find_element_by_xpath('//*[@id="app"]/div/div[2]/div/div/div[2]/div/div/div/a/h1').click()
+        time.sleep(2)
+
+        article_title = driver.find_element_by_xpath('//*[@id="app"]/div/div[1]/div/h1')
+        assert (article_title.text == "Új bejegyzés")
+
+        # Modify data
+        # Edit article
+
+        driver.find_element_by_xpath('//*[@id="app"]/div/div[1]/div/div/span/a/span').click()
+        time.sleep(2)
+        modified_article_title = driver.find_element_by_xpath('//*[@id="app"]//fieldset[1]/input')
+        modified_article_title.clear()
+        articel("Módosított bejegyzés", "", "", "")
+
+        driver.find_element_by_xpath('//*[@id="app"]/nav/div/ul/li[4]/a').click()
+        time.sleep(2)
+        title_list = []
+        my_articles = driver.find_elements_by_xpath('//*[@id="app"]//a/h1')
+        for title in my_articles:
+            title_list.append(title.text)
+        assert (title_list[-1] == "Módosított bejegyzés")
+
+        # Delete article
+
+        driver.find_element_by_xpath('//*[@id="app"]/div/div[2]/div/div/div[2]/div/div/div[1]/a/h1').click()
+        time.sleep(2)
+        driver.find_element_by_xpath('//*[@id="app"]/div/div[1]/div/div/span/button/span').click()
+
 
     finally:
         pass

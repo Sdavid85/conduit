@@ -33,7 +33,7 @@ def test_registration():
         button.click()
 
 
-    registration("Milvus", "milvus1@example.com", "Abcd123$")
+    registration("Milvus", "milvus@example.com", "Abcd123$")
 
     time.sleep(3)
 

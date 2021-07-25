@@ -16,12 +16,12 @@ def test_signinout():
     # Accept cookies
     driver.find_element_by_xpath('//*[@id="cookie-policy-panel"]/div/div[2]/button[2]').click()
 
-    driver.find_element_by_xpath('//*[@id="app"]/nav/div/ul/li[2]/a').click()
+    login = driver.find_element_by_xpath('//*[@id="app"]/nav/div/ul/li[2]/a')
+    login.click()
 
     time.sleep(3)
 
     username = "Milvus"
-
 
     def sign_in(em, pw):
         email = driver.find_element_by_xpath('//*[@id="app"]//fieldset[1]/input')
@@ -32,7 +32,6 @@ def test_signinout():
         password.send_keys(pw)
         button.click()
 
-
     sign_in("milvus@example.com", "Abcd123$")
 
     time.sleep(3)
@@ -42,9 +41,9 @@ def test_signinout():
     assert (un.text == username)
     print(un.text)
 
+    # Log out
     driver.find_element_by_xpath('//*[@id="app"]/nav/div/ul/li[5]/a').click()
 
     # Log out check
 
-    driver.find_element_by_xpath('//*[@id="app"]/nav/div/ul/li[2]/a')
-    # assert
+    assert (login.text == "Sign in")
