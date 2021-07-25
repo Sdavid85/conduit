@@ -9,7 +9,7 @@ def test_add_database():
     from selenium.common.exceptions import NoSuchElementException
 
     options = Options()
-    # options.add_argument('--headless')
+    options.add_argument('--headless')
     options.add_argument('--disable-gpu')
     driver = webdriver.Chrome(ChromeDriverManager().install(), chrome_options=options)
 
