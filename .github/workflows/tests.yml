@@ -39,6 +39,7 @@ jobs:
       uses: jwalton/gh-docker-logs@v1
       with:
         dest: './logs'
+        
     - name: Archive execution artifacts
       uses: actions/upload-artifact@v2
       with:
