@@ -6,25 +6,25 @@
       "name" : "ModuleNotFoundError: No module named 'webdriver_manager'",
       "children" : [ {
         "name" : "test_registration",
-        "uid" : "74789d1a347c6e88",
+        "uid" : "9a478ea0d4e4c227",
         "parentUid" : "b8d38dde3ec0c7b6c989cdf67e67dabb",
         "status" : "broken",
         "time" : {
-          "start" : 1627288056054,
-          "stop" : 1627288056144,
-          "duration" : 90
+          "start" : 1627288974042,
+          "stop" : 1627288974159,
+          "duration" : 117
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "test_signinout",
-        "uid" : "697673a4b15406f2",
+        "uid" : "c3a88b2be958b74c",
         "parentUid" : "b8d38dde3ec0c7b6c989cdf67e67dabb",
         "status" : "broken",
         "time" : {
-          "start" : 1627288056200,
-          "stop" : 1627288056200,
+          "start" : 1627288974196,
+          "stop" : 1627288974196,
           "duration" : 0
         },
         "flaky" : false,
@@ -32,25 +32,25 @@
         "parameters" : [ ]
       }, {
         "name" : "test_add_data",
-        "uid" : "ecaaed832e984918",
+        "uid" : "d844b491e6b80b26",
         "parentUid" : "b8d38dde3ec0c7b6c989cdf67e67dabb",
         "status" : "broken",
         "time" : {
-          "start" : 1627288056205,
-          "stop" : 1627288056205,
-          "duration" : 0
+          "start" : 1627288974200,
+          "stop" : 1627288974201,
+          "duration" : 1
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "test_paging",
-        "uid" : "9459b7e5e475b6c1",
+        "uid" : "514d22bf30b2ddb4",
         "parentUid" : "b8d38dde3ec0c7b6c989cdf67e67dabb",
         "status" : "broken",
         "time" : {
-          "start" : 1627288056210,
-          "stop" : 1627288056211,
+          "start" : 1627288974205,
+          "stop" : 1627288974206,
           "duration" : 1
         },
         "flaky" : false,
@@ -58,25 +58,25 @@
         "parameters" : [ ]
       }, {
         "name" : "test_add_database",
-        "uid" : "73be8f610f3c19e",
+        "uid" : "31b9cf6ae7b6c4e5",
         "parentUid" : "b8d38dde3ec0c7b6c989cdf67e67dabb",
         "status" : "broken",
         "time" : {
-          "start" : 1627288056215,
-          "stop" : 1627288056215,
-          "duration" : 0
+          "start" : 1627288974210,
+          "stop" : 1627288974211,
+          "duration" : 1
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "test_save_data",
-        "uid" : "d44bc6133e82a5de",
+        "uid" : "742758095b41eda8",
         "parentUid" : "b8d38dde3ec0c7b6c989cdf67e67dabb",
         "status" : "broken",
         "time" : {
-          "start" : 1627288056220,
-          "stop" : 1627288056220,
+          "start" : 1627288974216,
+          "stop" : 1627288974216,
           "duration" : 0
         },
         "flaky" : false,

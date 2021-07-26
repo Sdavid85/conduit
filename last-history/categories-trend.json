@@ -6,6 +6,13 @@
     "Test defects" : 6
   }
 }, {
+  "buildOrder" : 1,
+  "reportUrl" : "https://Sdavid85.github.io/conduit/1/",
+  "reportName" : "Allure Report with history",
+  "data" : {
+    "Test defects" : 6
+  }
+}, {
   "buildOrder" : 2,
   "reportUrl" : "https://Sdavid85.github.io/conduit/2/",
   "reportName" : "Allure Report with history",

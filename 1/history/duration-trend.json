@@ -3,6 +3,13 @@
   "reportUrl" : "https://Sdavid85.github.io/conduit/1/",
   "reportName" : "Allure Report with history",
   "data" : {
+    "duration" : 174
+  }
+}, {
+  "buildOrder" : 1,
+  "reportUrl" : "https://Sdavid85.github.io/conduit/1/",
+  "reportName" : "Allure Report with history",
+  "data" : {
     "duration" : 166
   }
 }, {
