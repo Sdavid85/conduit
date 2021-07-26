@@ -1,3 +1,17 @@
 [ {
+  "buildOrder" : 2,
+  "reportUrl" : "https://Sdavid85.github.io/conduit/2/",
+  "reportName" : "Allure Report with history",
+  "data" : {
+    "duration" : 23905
+  }
+}, {
+  "buildOrder" : 1,
+  "reportUrl" : "https://Sdavid85.github.io/conduit/1/",
+  "reportName" : "Allure Report with history",
+  "data" : {
+    "duration" : 117
+  }
+}, {
   "data" : { }
 } ]

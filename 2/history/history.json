@@ -1,1 +1,187 @@
-{ }
+{
+  "7514b1593f144ef741cf03af3c5db6ff" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "dcb6b938bfb565cc",
+      "reportUrl" : "https://Sdavid85.github.io/conduit/2//#testresult/dcb6b938bfb565cc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627287913188,
+        "stop" : 1627287919995,
+        "duration" : 6807
+      }
+    }, {
+      "uid" : "d082e89b75a58ae",
+      "reportUrl" : "https://Sdavid85.github.io/conduit/1//#testresult/d082e89b75a58ae",
+      "status" : "broken",
+      "statusDetails" : "ModuleNotFoundError: No module named 'webdriver_manager'",
+      "time" : {
+        "start" : 1627287339100,
+        "stop" : 1627287339100,
+        "duration" : 0
+      }
+    } ]
+  },
+  "e25e00115f6ccb7dc52c7b05a4c5a27d" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 2,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "7bdb1906ba7c36ac",
+      "reportUrl" : "https://Sdavid85.github.io/conduit/2//#testresult/7bdb1906ba7c36ac",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@id=\"cookie-policy-panel\"]/div/div[2]/button[2]\"}\n  (Session info: headless chrome=91.0.4472.164)",
+      "time" : {
+        "start" : 1627287904752,
+        "stop" : 1627287906265,
+        "duration" : 1513
+      }
+    }, {
+      "uid" : "5ceaec1b287e2704",
+      "reportUrl" : "https://Sdavid85.github.io/conduit/1//#testresult/5ceaec1b287e2704",
+      "status" : "broken",
+      "statusDetails" : "ModuleNotFoundError: No module named 'webdriver_manager'",
+      "time" : {
+        "start" : 1627287339088,
+        "stop" : 1627287339088,
+        "duration" : 0
+      }
+    } ]
+  },
+  "1ea1b9053b575423a3e77b2d2adc5fb9" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 2,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "45a992772329746d",
+      "reportUrl" : "https://Sdavid85.github.io/conduit/2//#testresult/45a992772329746d",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <a href=\"#/login\" class=\"nav-link router-link-exact-active active\" aria-current=\"page\">...</a> is not clickable at point (637, 26). Other element would receive the click: <div class=\"swal-overlay swal-overlay--show-modal\" tabindex=\"-1\">...</div>\n  (Session info: headless chrome=91.0.4472.164)",
+      "time" : {
+        "start" : 1627287907803,
+        "stop" : 1627287913148,
+        "duration" : 5345
+      }
+    }, {
+      "uid" : "968e061333b30419",
+      "reportUrl" : "https://Sdavid85.github.io/conduit/1//#testresult/968e061333b30419",
+      "status" : "broken",
+      "statusDetails" : "ModuleNotFoundError: No module named 'webdriver_manager'",
+      "time" : {
+        "start" : 1627287339096,
+        "stop" : 1627287339096,
+        "duration" : 0
+      }
+    } ]
+  },
+  "016bd065a9e4cab8407ab711566d39ca" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 2,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "b4c6c529f513ba64",
+      "reportUrl" : "https://Sdavid85.github.io/conduit/2//#testresult/b4c6c529f513ba64",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@id=\"cookie-policy-panel\"]/div/div[2]/button[2]\"}\n  (Session info: headless chrome=91.0.4472.164)",
+      "time" : {
+        "start" : 1627287903072,
+        "stop" : 1627287904701,
+        "duration" : 1629
+      }
+    }, {
+      "uid" : "1d7bb1802aea035f",
+      "reportUrl" : "https://Sdavid85.github.io/conduit/1//#testresult/1d7bb1802aea035f",
+      "status" : "broken",
+      "statusDetails" : "ModuleNotFoundError: No module named 'webdriver_manager'",
+      "time" : {
+        "start" : 1627287339084,
+        "stop" : 1627287339085,
+        "duration" : 1
+      }
+    } ]
+  },
+  "1dc53b122e059bcc13ce9bd7929f4c05" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 2,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "322d3380e5c41e2d",
+      "reportUrl" : "https://Sdavid85.github.io/conduit/2//#testresult/322d3380e5c41e2d",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@id=\"cookie-policy-panel\"]/div/div[2]/button[2]\"}\n  (Session info: headless chrome=91.0.4472.164)",
+      "time" : {
+        "start" : 1627287906313,
+        "stop" : 1627287907763,
+        "duration" : 1450
+      }
+    }, {
+      "uid" : "6e970be2260fed64",
+      "reportUrl" : "https://Sdavid85.github.io/conduit/1//#testresult/6e970be2260fed64",
+      "status" : "broken",
+      "statusDetails" : "ModuleNotFoundError: No module named 'webdriver_manager'",
+      "time" : {
+        "start" : 1627287339092,
+        "stop" : 1627287339093,
+        "duration" : 1
+      }
+    } ]
+  },
+  "ab5cee0238ca14edb0356efbac54c234" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 2,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "a9568a411726dd9d",
+      "reportUrl" : "https://Sdavid85.github.io/conduit/2//#testresult/a9568a411726dd9d",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@id=\"cookie-policy-panel\"]/div/div[2]/button[2]\"}\n  (Session info: headless chrome=91.0.4472.164)",
+      "time" : {
+        "start" : 1627287896090,
+        "stop" : 1627287902976,
+        "duration" : 6886
+      }
+    }, {
+      "uid" : "6a29ef8848b67e13",
+      "reportUrl" : "https://Sdavid85.github.io/conduit/1//#testresult/6a29ef8848b67e13",
+      "status" : "broken",
+      "statusDetails" : "ModuleNotFoundError: No module named 'webdriver_manager'",
+      "time" : {
+        "start" : 1627287338983,
+        "stop" : 1627287339056,
+        "duration" : 73
+      }
+    } ]
+  }
+}
