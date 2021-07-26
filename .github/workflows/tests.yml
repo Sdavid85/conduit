@@ -35,6 +35,7 @@ jobs:
     - name: Test with pytest
       run: |
         pytest --alluredir=allure-results
+        
     - name: Collect docker logs
       uses: jwalton/gh-docker-logs@v1
       with:
