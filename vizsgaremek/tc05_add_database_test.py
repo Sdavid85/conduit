@@ -42,7 +42,7 @@ def test_add_database():
         article_tag = driver.find_element_by_xpath('//*[@id="app"]//fieldset[4]//input')
         publish_button = driver.find_element_by_xpath('//*[@id="app"]//form/button')
 
-        with open('database.csv', encoding='utf-8') as csvfile:
+        with open('./database.csv', 'r', encoding='utf-8') as csvfile:
             csvreader = csv.reader(csvfile, delimiter=',')
             for row in csvreader:
                 article_title.send_keys(row[0])
