@@ -79,7 +79,7 @@ def test_add_database():
 
         # Checking assertion in data
         my_titles = []
-        with open('database.csv', encoding='utf-8') as csvfile:
+        with open('./database.csv', 'r', encoding='utf-8') as csvfile:
             csvreader = csv.reader(csvfile, delimiter=',')
             for row in csvreader:
                 my_titles.append(row[0])
