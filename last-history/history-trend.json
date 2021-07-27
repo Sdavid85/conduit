@@ -1,4 +1,16 @@
 [ {
+  "buildOrder" : 5,
+  "reportUrl" : "https://Sdavid85.github.io/conduit/5/",
+  "reportName" : "Allure Report with history",
+  "data" : {
+    "failed" : 0,
+    "broken" : 1,
+    "skipped" : 0,
+    "passed" : 5,
+    "unknown" : 0,
+    "total" : 6
+  }
+}, {
   "buildOrder" : 3,
   "reportUrl" : "https://Sdavid85.github.io/conduit/3/",
   "reportName" : "Allure Report with history",
