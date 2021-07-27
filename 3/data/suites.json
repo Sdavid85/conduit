@@ -6,13 +6,13 @@
       "name" : "tc01_registration_test",
       "children" : [ {
         "name" : "test_registration",
-        "uid" : "394a355edd33c29b",
+        "uid" : "d559bcef90e58e0e",
         "parentUid" : "97e6f1e4888e56e83b476c6b25ac67d4",
         "status" : "passed",
         "time" : {
-          "start" : 1627410581055,
-          "stop" : 1627410594007,
-          "duration" : 12952
+          "start" : 1627411108644,
+          "stop" : 1627411122154,
+          "duration" : 13510
         },
         "flaky" : false,
         "newFailed" : false,
@@ -23,13 +23,13 @@
       "name" : "tc02_signinout_test",
       "children" : [ {
         "name" : "test_signinout",
-        "uid" : "238415e3af713daf",
+        "uid" : "147c8256cb5a4750",
         "parentUid" : "7aa7876d61fac13d7dce7595109caa8c",
         "status" : "passed",
         "time" : {
-          "start" : 1627410594011,
-          "stop" : 1627410601917,
-          "duration" : 7906
+          "start" : 1627411122158,
+          "stop" : 1627411130168,
+          "duration" : 8010
         },
         "flaky" : false,
         "newFailed" : false,
@@ -40,13 +40,13 @@
       "name" : "tc03_manage_data_test",
       "children" : [ {
         "name" : "test_add_data",
-        "uid" : "4c6140f5aa1e4136",
+        "uid" : "d3f18ad917585100",
         "parentUid" : "5f9bab215afc142b903b2e1eebcff027",
         "status" : "passed",
         "time" : {
-          "start" : 1627410601921,
-          "stop" : 1627410622257,
-          "duration" : 20336
+          "start" : 1627411130172,
+          "stop" : 1627411150449,
+          "duration" : 20277
         },
         "flaky" : false,
         "newFailed" : false,
@@ -57,13 +57,13 @@
       "name" : "tc04_paging_test",
       "children" : [ {
         "name" : "test_paging",
-        "uid" : "830aa6cfb992a0c1",
+        "uid" : "4cde3292fdab8b08",
         "parentUid" : "37cc86e5063a7b01c717743697ddc04a",
         "status" : "passed",
         "time" : {
-          "start" : 1627410622260,
-          "stop" : 1627410634398,
-          "duration" : 12138
+          "start" : 1627411150453,
+          "stop" : 1627411162732,
+          "duration" : 12279
         },
         "flaky" : false,
         "newFailed" : false,
@@ -74,13 +74,13 @@
       "name" : "tc05_add_database_test",
       "children" : [ {
         "name" : "test_add_database",
-        "uid" : "8819b29c99bc635c",
+        "uid" : "456f46fa774268fb",
         "parentUid" : "971ac53564da6d391c04dac35f420336",
         "status" : "broken",
         "time" : {
-          "start" : 1627410634402,
-          "stop" : 1627410640528,
-          "duration" : 6126
+          "start" : 1627411162736,
+          "stop" : 1627411168925,
+          "duration" : 6189
         },
         "flaky" : false,
         "newFailed" : false,
@@ -91,13 +91,13 @@
       "name" : "tc06_save_data_test",
       "children" : [ {
         "name" : "test_save_data",
-        "uid" : "f6a3cd98c4c939e2",
+        "uid" : "3eefe30563d0c917",
         "parentUid" : "e0bfa32b20938bbb6a47e0f41efdc046",
         "status" : "passed",
         "time" : {
-          "start" : 1627410640568,
-          "stop" : 1627410649692,
-          "duration" : 9124
+          "start" : 1627411168966,
+          "stop" : 1627411178128,
+          "duration" : 9162
         },
         "flaky" : false,
         "newFailed" : false,
