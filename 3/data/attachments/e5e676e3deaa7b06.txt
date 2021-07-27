@@ -1,0 +1,4 @@
+Your registration was successful!
+http://localhost:1667/#/@Milvus/
+Milvus
+Registrated with correct user name
