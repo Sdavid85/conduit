@@ -1,6 +1,4 @@
 def test_add_database():
-    import pprint
-
     from selenium import webdriver
     from selenium.webdriver.chrome.options import Options
     from webdriver_manager.chrome import ChromeDriverManager
@@ -15,32 +13,37 @@ def test_add_database():
 
     try:
         driver.get("http://localhost:1667/")
-        # Cookie accept:
-        driver.find_element_by_xpath('//*[@id="cookie-policy-panel"]/div/div[2]/button[2]').click()
 
-        # Activate Sign in input field:
-        driver.find_element_by_xpath('//*[@id="app"]/nav/div/ul/li[2]/a').click()
+        # Accept cookies
+        accept_btn = driver.find_element_by_xpath('//*[@id="cookie-policy-panel"]/div/div[2]/button[2]/div')
+        accept_btn.click()
 
-        # Fill input fields:
-        def fill_login(mail, pw):
+        # Login
+        login = driver.find_element_by_xpath('//*[@id="app"]/nav/div/ul/li[2]/a')
+        login.click()
+
+        def sign_in(em, pw):
             email = driver.find_element_by_xpath('//*[@id="app"]//fieldset[1]/input')
             password = driver.find_element_by_xpath('//*[@id="app"]//fieldset[2]/input')
             button = driver.find_element_by_xpath('//*[@id="app"]//form/button')
 
-            email.send_keys(mail)
+            email.send_keys(em)
             password.send_keys(pw)
             button.click()
 
-        fill_login("milvus@example.com", "Abcd123$")
+        sign_in("milvus@example.com", "Abcd123$")
 
         time.sleep(2)
-        new_article = driver.find_element_by_xpath('//*[@id="app"]/nav/div/ul/li[2]/a').click()
+
+        new_article = driver.find_element_by_xpath('//*[@id="app"]/nav/div/ul/li[2]/a')
+        new_article.click()
         time.sleep(2)
+
         article_title = driver.find_element_by_xpath('//*[@id="app"]//fieldset[1]/input')
         article_about = driver.find_element_by_xpath('//*[@id="app"]//fieldset[2]/input')
         article_content = driver.find_element_by_xpath('//*[@id="app"]//fieldset[3]/textarea')
         article_tag = driver.find_element_by_xpath('//*[@id="app"]//fieldset[4]//input')
-        publish_button = driver.find_element_by_xpath('//*[@id="app"]//form/button')
+        publish_btn = driver.find_element_by_xpath('//*[@id="app"]//form/button')
 
         with open('./database.csv', 'r', encoding='utf-8') as csvfile:
             csvreader = csv.reader(csvfile, delimiter=',')
@@ -49,24 +52,25 @@ def test_add_database():
                 article_about.send_keys(row[1])
                 article_content.send_keys(row[2])
                 article_tag.send_keys(row[3])
-                publish_button.click()
+                publish_btn.click()
                 time.sleep(2)
                 driver.find_element_by_xpath('//*[@id="app"]/nav/div/ul/li[2]/a').click()
                 time.sleep(2)
 
-        my_articles = driver.find_element_by_xpath('//*[@id="app"]/nav/div/ul/li[4]/a').click()
+        my_articles = driver.find_element_by_xpath('//*[@id="app"]/nav/div/ul/li[4]/a')
+        my_articles.click()
         time.sleep(2)
 
-        feed_title_list = []
+        article_title_list = []
 
         page_count = 1
 
         while True:
             time.sleep(2)
-            feed_titles = driver.find_elements_by_xpath('//*[@id="app"]//div[2]//a/h1')
+            article_titles = driver.find_elements_by_xpath('//*[@id="app"]//div[2]//a/h1')
 
-            for title in feed_titles:
-                feed_title_list.append(title.text)
+            for title in article_titles:
+                article_title_list.append(title.text)
 
             try:
                 page_count += 1
@@ -75,14 +79,14 @@ def test_add_database():
                 # Stop loop if no more page available
                 break
 
-        pprint.pprint(list(zip(feed_title_list[-2:])))
-
-        # Checking assertion in data
-        my_titles = []
+        # Assertion
+        csv_my_titles = []
         with open('./database.csv', 'r', encoding='utf-8') as csvfile:
             csvreader = csv.reader(csvfile, delimiter=',')
             for row in csvreader:
-                my_titles.append(row[0])
+                csv_my_titles.append(row[0])
+
+        assert len(article_title_list) == len(csv_my_titles)
 
     finally:
         driver.close()
