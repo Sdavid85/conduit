@@ -4,11 +4,29 @@
       "failed" : 0,
       "broken" : 3,
       "skipped" : 0,
-      "passed" : 8,
+      "passed" : 10,
       "unknown" : 0,
-      "total" : 11
+      "total" : 13
     },
     "items" : [ {
+      "uid" : "7d92dfb475e8726b",
+      "reportUrl" : "https://Sdavid85.github.io/conduit/3//#testresult/7d92dfb475e8726b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628255355429,
+        "stop" : 1628255364598,
+        "duration" : 9169
+      }
+    }, {
+      "uid" : "3ef2b0555ae26b0f",
+      "reportUrl" : "https://Sdavid85.github.io/conduit/7//#testresult/3ef2b0555ae26b0f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628255171480,
+        "stop" : 1628255182707,
+        "duration" : 11227
+      }
+    }, {
       "uid" : "3eefe30563d0c917",
       "reportUrl" : "https://Sdavid85.github.io/conduit/3//#testresult/3eefe30563d0c917",
       "status" : "passed",
@@ -114,14 +132,33 @@
   },
   "e25e00115f6ccb7dc52c7b05a4c5a27d" : {
     "statistic" : {
-      "failed" : 0,
+      "failed" : 1,
       "broken" : 4,
       "skipped" : 0,
-      "passed" : 7,
+      "passed" : 8,
       "unknown" : 0,
-      "total" : 11
+      "total" : 13
     },
     "items" : [ {
+      "uid" : "8e5d42038e3d1ed9",
+      "reportUrl" : "https://Sdavid85.github.io/conduit/3//#testresult/8e5d42038e3d1ed9",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 'Lorem ipsum dolor sit amet' == 'Új bejegyzés'\n  - Új bejegyzés\n  + Lorem ipsum dolor sit amet",
+      "time" : {
+        "start" : 1628255323557,
+        "stop" : 1628255337169,
+        "duration" : 13612
+      }
+    }, {
+      "uid" : "e3a5d2617e28501f",
+      "reportUrl" : "https://Sdavid85.github.io/conduit/7//#testresult/e3a5d2617e28501f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628255101583,
+        "stop" : 1628255135762,
+        "duration" : 34179
+      }
+    }, {
       "uid" : "d3f18ad917585100",
       "reportUrl" : "https://Sdavid85.github.io/conduit/3//#testresult/d3f18ad917585100",
       "status" : "passed",
@@ -229,13 +266,32 @@
   "1ea1b9053b575423a3e77b2d2adc5fb9" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 10,
+      "broken" : 11,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 2,
       "unknown" : 0,
-      "total" : 11
+      "total" : 13
     },
     "items" : [ {
+      "uid" : "19373ed8ef494f3a",
+      "reportUrl" : "https://Sdavid85.github.io/conduit/3//#testresult/19373ed8ef494f3a",
+      "status" : "broken",
+      "statusDetails" : "FileNotFoundError: [Errno 2] No such file or directory: 'database.csv'",
+      "time" : {
+        "start" : 1628255349379,
+        "stop" : 1628255355365,
+        "duration" : 5986
+      }
+    }, {
+      "uid" : "20a15990842cbacb",
+      "reportUrl" : "https://Sdavid85.github.io/conduit/7//#testresult/20a15990842cbacb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628255148617,
+        "stop" : 1628255171477,
+        "duration" : 22860
+      }
+    }, {
       "uid" : "456f46fa774268fb",
       "reportUrl" : "https://Sdavid85.github.io/conduit/3//#testresult/456f46fa774268fb",
       "status" : "broken",
@@ -351,11 +407,29 @@
       "failed" : 0,
       "broken" : 4,
       "skipped" : 0,
-      "passed" : 7,
+      "passed" : 9,
       "unknown" : 0,
-      "total" : 11
+      "total" : 13
     },
     "items" : [ {
+      "uid" : "1b7e93ae195384e8",
+      "reportUrl" : "https://Sdavid85.github.io/conduit/3//#testresult/1b7e93ae195384e8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628255315621,
+        "stop" : 1628255323553,
+        "duration" : 7932
+      }
+    }, {
+      "uid" : "f519b506edd68725",
+      "reportUrl" : "https://Sdavid85.github.io/conduit/7//#testresult/f519b506edd68725",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628255091587,
+        "stop" : 1628255101580,
+        "duration" : 9993
+      }
+    }, {
       "uid" : "147c8256cb5a4750",
       "reportUrl" : "https://Sdavid85.github.io/conduit/3//#testresult/147c8256cb5a4750",
       "status" : "passed",
@@ -465,11 +539,29 @@
       "failed" : 0,
       "broken" : 4,
       "skipped" : 0,
-      "passed" : 7,
+      "passed" : 9,
       "unknown" : 0,
-      "total" : 11
+      "total" : 13
     },
     "items" : [ {
+      "uid" : "f73763ae16e0b0ea",
+      "reportUrl" : "https://Sdavid85.github.io/conduit/3//#testresult/f73763ae16e0b0ea",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628255337211,
+        "stop" : 1628255349375,
+        "duration" : 12164
+      }
+    }, {
+      "uid" : "b645f02be179502c",
+      "reportUrl" : "https://Sdavid85.github.io/conduit/7//#testresult/b645f02be179502c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628255135765,
+        "stop" : 1628255148613,
+        "duration" : 12848
+      }
+    }, {
       "uid" : "4cde3292fdab8b08",
       "reportUrl" : "https://Sdavid85.github.io/conduit/3//#testresult/4cde3292fdab8b08",
       "status" : "passed",
@@ -579,11 +671,29 @@
       "failed" : 0,
       "broken" : 4,
       "skipped" : 0,
-      "passed" : 7,
+      "passed" : 9,
       "unknown" : 0,
-      "total" : 11
+      "total" : 13
     },
     "items" : [ {
+      "uid" : "903a59357851284d",
+      "reportUrl" : "https://Sdavid85.github.io/conduit/3//#testresult/903a59357851284d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628255301812,
+        "stop" : 1628255315562,
+        "duration" : 13750
+      }
+    }, {
+      "uid" : "7eea38846c2a22cc",
+      "reportUrl" : "https://Sdavid85.github.io/conduit/7//#testresult/7eea38846c2a22cc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628255082455,
+        "stop" : 1628255091516,
+        "duration" : 9061
+      }
+    }, {
       "uid" : "d559bcef90e58e0e",
       "reportUrl" : "https://Sdavid85.github.io/conduit/3//#testresult/d559bcef90e58e0e",
       "status" : "passed",

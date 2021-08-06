@@ -1,18 +1,39 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
   "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError: assert 'Lorem ipsum dolor sit amet' == 'Új bejegyzés'\n  - Új bejegyzés\n  + Lorem ipsum dolor sit amet",
+      "children" : [ {
+        "name" : "test_add_data",
+        "uid" : "8e5d42038e3d1ed9",
+        "parentUid" : "356f81828c1e99a30ef50bec07ae9c29",
+        "status" : "failed",
+        "time" : {
+          "start" : 1628255323557,
+          "stop" : 1628255337169,
+          "duration" : 13612
+        },
+        "flaky" : false,
+        "newFailed" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "356f81828c1e99a30ef50bec07ae9c29"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  }, {
     "name" : "Test defects",
     "children" : [ {
       "name" : "FileNotFoundError: [Errno 2] No such file or directory: 'database.csv'",
       "children" : [ {
         "name" : "test_add_database",
-        "uid" : "456f46fa774268fb",
+        "uid" : "19373ed8ef494f3a",
         "parentUid" : "8156e9d411c9f62b1a24bcc6fe39b8a8",
         "status" : "broken",
         "time" : {
-          "start" : 1627411162736,
-          "stop" : 1627411168925,
-          "duration" : 6189
+          "start" : 1628255349379,
+          "stop" : 1628255355365,
+          "duration" : 5986
         },
         "flaky" : false,
         "newFailed" : false,
