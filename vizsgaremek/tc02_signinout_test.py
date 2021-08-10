@@ -6,13 +6,15 @@ def test_signinout():
     from webdriver_manager.chrome import ChromeDriverManager
 
     options = Options()
-    options.add_argument("--headless")
+    # options.add_argument("--headless")
     options.add_argument("--disable-gpu")
 
     driver = webdriver.Chrome(ChromeDriverManager().install(), chrome_options=options)
 
     try:
         driver.get("http://localhost:1667/#/")
+
+        cookie_panel = driver.find_element_by_id('cookie-policy-panel')
 
         # Accept cookies
         accept_btn = driver.find_element_by_xpath('//*[@id="cookie-policy-panel"]/div/div[2]/button[2]')
@@ -49,6 +51,10 @@ def test_signinout():
 
         # Log out check
         assert (login.text == "Sign in")
+
+        # Cookies management check
+        driver.get("http://localhost:1667/#/")
+        assert not cookie_panel.is_displayed()
 
     finally:
         pass

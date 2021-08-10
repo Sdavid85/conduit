@@ -99,7 +99,7 @@ def test_add_data():
         time.sleep(2)
         delete_btn.click()
 
-        time.sleep(8)
+        time.sleep(4)
 
         home_btn = driver.find_element_by_xpath('//*[@id="app"]/nav/div/ul/li[1]/a')
         home_btn.click()
