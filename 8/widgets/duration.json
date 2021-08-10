@@ -1,1 +1,61 @@
-[ ]
+[ {
+  "uid" : "48297fdbd21e34bb",
+  "name" : "test_add_database",
+  "time" : {
+    "start" : 1628616733772,
+    "stop" : 1628616756604,
+    "duration" : 22832
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e802464b7b772d73",
+  "name" : "test_paging",
+  "time" : {
+    "start" : 1628616721663,
+    "stop" : 1628616733768,
+    "duration" : 12105
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "74f871d444a6d73",
+  "name" : "test_signinout",
+  "time" : {
+    "start" : 1628616688177,
+    "stop" : 1628616691232,
+    "duration" : 3055
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "fd460b5dac2a0a8b",
+  "name" : "test_registration",
+  "time" : {
+    "start" : 1628616667630,
+    "stop" : 1628616688119,
+    "duration" : 20489
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e5cfa33789ba9da1",
+  "name" : "test_save_data",
+  "time" : {
+    "start" : 1628616756610,
+    "stop" : 1628616767920,
+    "duration" : 11310
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d4ac261d5525e791",
+  "name" : "test_add_data",
+  "time" : {
+    "start" : 1628616691316,
+    "stop" : 1628616721659,
+    "duration" : 30343
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

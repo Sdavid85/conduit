@@ -1,0 +1,7 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Tue Aug 10 17:32:13 GMT 2021","Tue Aug 10 17:32:36 GMT 2021","22832","vizsgaremek","tc05_add_database_test","","","","test_add_database",""
+"passed","Tue Aug 10 17:32:01 GMT 2021","Tue Aug 10 17:32:13 GMT 2021","12105","vizsgaremek","tc04_paging_test","","","","test_paging",""
+"broken","Tue Aug 10 17:31:28 GMT 2021","Tue Aug 10 17:31:31 GMT 2021","3055","vizsgaremek","tc02_signinout_test","","","","test_signinout",""
+"passed","Tue Aug 10 17:31:07 GMT 2021","Tue Aug 10 17:31:28 GMT 2021","20489","vizsgaremek","tc01_registration_test","","","","test_registration",""
+"passed","Tue Aug 10 17:32:36 GMT 2021","Tue Aug 10 17:32:47 GMT 2021","11310","vizsgaremek","tc06_save_data_test","","","","test_save_data",""
+"passed","Tue Aug 10 17:31:31 GMT 2021","Tue Aug 10 17:32:01 GMT 2021","30343","vizsgaremek","tc03_manage_data_test","","","","test_add_data",""
