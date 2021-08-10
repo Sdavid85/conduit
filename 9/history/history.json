@@ -1,1 +1,913 @@
-{ }
+{
+  "7514b1593f144ef741cf03af3c5db6ff" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 3,
+      "skipped" : 0,
+      "passed" : 12,
+      "unknown" : 0,
+      "total" : 15
+    },
+    "items" : [ {
+      "uid" : "84af03fd1ee9ca9",
+      "reportUrl" : "https://Sdavid85.github.io/conduit/9//#testresult/84af03fd1ee9ca9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628617238256,
+        "stop" : 1628617249482,
+        "duration" : 11226
+      }
+    }, {
+      "uid" : "e5cfa33789ba9da1",
+      "reportUrl" : "https://Sdavid85.github.io/conduit/8//#testresult/e5cfa33789ba9da1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628616756610,
+        "stop" : 1628616767920,
+        "duration" : 11310
+      }
+    }, {
+      "uid" : "7d92dfb475e8726b",
+      "reportUrl" : "https://Sdavid85.github.io/conduit/3//#testresult/7d92dfb475e8726b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628255355429,
+        "stop" : 1628255364598,
+        "duration" : 9169
+      }
+    }, {
+      "uid" : "3ef2b0555ae26b0f",
+      "reportUrl" : "https://Sdavid85.github.io/conduit/7//#testresult/3ef2b0555ae26b0f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628255171480,
+        "stop" : 1628255182707,
+        "duration" : 11227
+      }
+    }, {
+      "uid" : "3eefe30563d0c917",
+      "reportUrl" : "https://Sdavid85.github.io/conduit/3//#testresult/3eefe30563d0c917",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627411168966,
+        "stop" : 1627411178128,
+        "duration" : 9162
+      }
+    }, {
+      "uid" : "7d4623edc376935e",
+      "reportUrl" : "https://Sdavid85.github.io/conduit/6//#testresult/7d4623edc376935e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627411126688,
+        "stop" : 1627411135826,
+        "duration" : 9138
+      }
+    }, {
+      "uid" : "f6a3cd98c4c939e2",
+      "reportUrl" : "https://Sdavid85.github.io/conduit/3//#testresult/f6a3cd98c4c939e2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627410640568,
+        "stop" : 1627410649692,
+        "duration" : 9124
+      }
+    }, {
+      "uid" : "427e527849e9211e",
+      "reportUrl" : "https://Sdavid85.github.io/conduit/5//#testresult/427e527849e9211e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627410615790,
+        "stop" : 1627410624951,
+        "duration" : 9161
+      }
+    }, {
+      "uid" : "c5e7bc3b05c0ad93",
+      "reportUrl" : "https://Sdavid85.github.io/conduit/3//#testresult/c5e7bc3b05c0ad93",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627410301421,
+        "stop" : 1627410309292,
+        "duration" : 7871
+      }
+    }, {
+      "uid" : "a95cc734be5ee36f",
+      "reportUrl" : "https://Sdavid85.github.io/conduit/4//#testresult/a95cc734be5ee36f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627410261840,
+        "stop" : 1627410271086,
+        "duration" : 9246
+      }
+    }, {
+      "uid" : "cde11c15268a4d92",
+      "reportUrl" : "https://Sdavid85.github.io/conduit/3//#testresult/cde11c15268a4d92",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627409728510,
+        "stop" : 1627409737647,
+        "duration" : 9137
+      }
+    }, {
+      "uid" : "742758095b41eda8",
+      "reportUrl" : "https://Sdavid85.github.io/conduit/1//#testresult/742758095b41eda8",
+      "status" : "broken",
+      "statusDetails" : "ModuleNotFoundError: No module named 'webdriver_manager'",
+      "time" : {
+        "start" : 1627288974216,
+        "stop" : 1627288974216,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "d44bc6133e82a5de",
+      "reportUrl" : "https://Sdavid85.github.io/conduit/1//#testresult/d44bc6133e82a5de",
+      "status" : "broken",
+      "statusDetails" : "ModuleNotFoundError: No module named 'webdriver_manager'",
+      "time" : {
+        "start" : 1627288056220,
+        "stop" : 1627288056220,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "dcb6b938bfb565cc",
+      "reportUrl" : "https://Sdavid85.github.io/conduit/2//#testresult/dcb6b938bfb565cc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627287913188,
+        "stop" : 1627287919995,
+        "duration" : 6807
+      }
+    }, {
+      "uid" : "d082e89b75a58ae",
+      "reportUrl" : "https://Sdavid85.github.io/conduit/1//#testresult/d082e89b75a58ae",
+      "status" : "broken",
+      "statusDetails" : "ModuleNotFoundError: No module named 'webdriver_manager'",
+      "time" : {
+        "start" : 1627287339100,
+        "stop" : 1627287339100,
+        "duration" : 0
+      }
+    } ]
+  },
+  "e25e00115f6ccb7dc52c7b05a4c5a27d" : {
+    "statistic" : {
+      "failed" : 2,
+      "broken" : 4,
+      "skipped" : 0,
+      "passed" : 9,
+      "unknown" : 0,
+      "total" : 15
+    },
+    "items" : [ {
+      "uid" : "ef84839461c56bba",
+      "reportUrl" : "https://Sdavid85.github.io/conduit/9//#testresult/ef84839461c56bba",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 'Lorem ipsum dolor sit amet' == 'Új bejegyzés'\n  - Új bejegyzés\n  + Lorem ipsum dolor sit amet",
+      "time" : {
+        "start" : 1628617189375,
+        "stop" : 1628617202929,
+        "duration" : 13554
+      }
+    }, {
+      "uid" : "d4ac261d5525e791",
+      "reportUrl" : "https://Sdavid85.github.io/conduit/8//#testresult/d4ac261d5525e791",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628616691316,
+        "stop" : 1628616721659,
+        "duration" : 30343
+      }
+    }, {
+      "uid" : "8e5d42038e3d1ed9",
+      "reportUrl" : "https://Sdavid85.github.io/conduit/3//#testresult/8e5d42038e3d1ed9",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 'Lorem ipsum dolor sit amet' == 'Új bejegyzés'\n  - Új bejegyzés\n  + Lorem ipsum dolor sit amet",
+      "time" : {
+        "start" : 1628255323557,
+        "stop" : 1628255337169,
+        "duration" : 13612
+      }
+    }, {
+      "uid" : "e3a5d2617e28501f",
+      "reportUrl" : "https://Sdavid85.github.io/conduit/7//#testresult/e3a5d2617e28501f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628255101583,
+        "stop" : 1628255135762,
+        "duration" : 34179
+      }
+    }, {
+      "uid" : "d3f18ad917585100",
+      "reportUrl" : "https://Sdavid85.github.io/conduit/3//#testresult/d3f18ad917585100",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627411130172,
+        "stop" : 1627411150449,
+        "duration" : 20277
+      }
+    }, {
+      "uid" : "2156bd68bb8d9e41",
+      "reportUrl" : "https://Sdavid85.github.io/conduit/6//#testresult/2156bd68bb8d9e41",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627411069577,
+        "stop" : 1627411089528,
+        "duration" : 19951
+      }
+    }, {
+      "uid" : "4c6140f5aa1e4136",
+      "reportUrl" : "https://Sdavid85.github.io/conduit/3//#testresult/4c6140f5aa1e4136",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627410601921,
+        "stop" : 1627410622257,
+        "duration" : 20336
+      }
+    }, {
+      "uid" : "33e69505230bf26",
+      "reportUrl" : "https://Sdavid85.github.io/conduit/5//#testresult/33e69505230bf26",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627410577073,
+        "stop" : 1627410597273,
+        "duration" : 20200
+      }
+    }, {
+      "uid" : "b6f91f009fa3311f",
+      "reportUrl" : "https://Sdavid85.github.io/conduit/3//#testresult/b6f91f009fa3311f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627410263667,
+        "stop" : 1627410283412,
+        "duration" : 19745
+      }
+    }, {
+      "uid" : "3b2829da717075f3",
+      "reportUrl" : "https://Sdavid85.github.io/conduit/4//#testresult/3b2829da717075f3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627410222241,
+        "stop" : 1627410243094,
+        "duration" : 20853
+      }
+    }, {
+      "uid" : "c7d6c1a5d382c0b8",
+      "reportUrl" : "https://Sdavid85.github.io/conduit/3//#testresult/c7d6c1a5d382c0b8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627409689651,
+        "stop" : 1627409709991,
+        "duration" : 20340
+      }
+    }, {
+      "uid" : "d844b491e6b80b26",
+      "reportUrl" : "https://Sdavid85.github.io/conduit/1//#testresult/d844b491e6b80b26",
+      "status" : "broken",
+      "statusDetails" : "ModuleNotFoundError: No module named 'webdriver_manager'",
+      "time" : {
+        "start" : 1627288974200,
+        "stop" : 1627288974201,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "ecaaed832e984918",
+      "reportUrl" : "https://Sdavid85.github.io/conduit/1//#testresult/ecaaed832e984918",
+      "status" : "broken",
+      "statusDetails" : "ModuleNotFoundError: No module named 'webdriver_manager'",
+      "time" : {
+        "start" : 1627288056205,
+        "stop" : 1627288056205,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "7bdb1906ba7c36ac",
+      "reportUrl" : "https://Sdavid85.github.io/conduit/2//#testresult/7bdb1906ba7c36ac",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@id=\"cookie-policy-panel\"]/div/div[2]/button[2]\"}\n  (Session info: headless chrome=91.0.4472.164)",
+      "time" : {
+        "start" : 1627287904752,
+        "stop" : 1627287906265,
+        "duration" : 1513
+      }
+    }, {
+      "uid" : "5ceaec1b287e2704",
+      "reportUrl" : "https://Sdavid85.github.io/conduit/1//#testresult/5ceaec1b287e2704",
+      "status" : "broken",
+      "statusDetails" : "ModuleNotFoundError: No module named 'webdriver_manager'",
+      "time" : {
+        "start" : 1627287339088,
+        "stop" : 1627287339088,
+        "duration" : 0
+      }
+    } ]
+  },
+  "1ea1b9053b575423a3e77b2d2adc5fb9" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 11,
+      "skipped" : 0,
+      "passed" : 3,
+      "unknown" : 0,
+      "total" : 15
+    },
+    "items" : [ {
+      "uid" : "d497629c3b65af1a",
+      "reportUrl" : "https://Sdavid85.github.io/conduit/9//#testresult/d497629c3b65af1a",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 4 == 3\n +  where 4 = len(['Új bejegyzés', 'Első', 'Második', 'Harmadik'])\n +  and   3 = len(['Első', 'Második', 'Harmadik'])",
+      "time" : {
+        "start" : 1628617215138,
+        "stop" : 1628617238194,
+        "duration" : 23056
+      }
+    }, {
+      "uid" : "48297fdbd21e34bb",
+      "reportUrl" : "https://Sdavid85.github.io/conduit/8//#testresult/48297fdbd21e34bb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628616733772,
+        "stop" : 1628616756604,
+        "duration" : 22832
+      }
+    }, {
+      "uid" : "19373ed8ef494f3a",
+      "reportUrl" : "https://Sdavid85.github.io/conduit/3//#testresult/19373ed8ef494f3a",
+      "status" : "broken",
+      "statusDetails" : "FileNotFoundError: [Errno 2] No such file or directory: 'database.csv'",
+      "time" : {
+        "start" : 1628255349379,
+        "stop" : 1628255355365,
+        "duration" : 5986
+      }
+    }, {
+      "uid" : "20a15990842cbacb",
+      "reportUrl" : "https://Sdavid85.github.io/conduit/7//#testresult/20a15990842cbacb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628255148617,
+        "stop" : 1628255171477,
+        "duration" : 22860
+      }
+    }, {
+      "uid" : "456f46fa774268fb",
+      "reportUrl" : "https://Sdavid85.github.io/conduit/3//#testresult/456f46fa774268fb",
+      "status" : "broken",
+      "statusDetails" : "FileNotFoundError: [Errno 2] No such file or directory: 'database.csv'",
+      "time" : {
+        "start" : 1627411162736,
+        "stop" : 1627411168925,
+        "duration" : 6189
+      }
+    }, {
+      "uid" : "20fadd28b0b50cd",
+      "reportUrl" : "https://Sdavid85.github.io/conduit/6//#testresult/20fadd28b0b50cd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627411101614,
+        "stop" : 1627411126683,
+        "duration" : 25069
+      }
+    }, {
+      "uid" : "8819b29c99bc635c",
+      "reportUrl" : "https://Sdavid85.github.io/conduit/3//#testresult/8819b29c99bc635c",
+      "status" : "broken",
+      "statusDetails" : "FileNotFoundError: [Errno 2] No such file or directory: 'database.csv'",
+      "time" : {
+        "start" : 1627410634402,
+        "stop" : 1627410640528,
+        "duration" : 6126
+      }
+    }, {
+      "uid" : "e6774f4cf4c05f20",
+      "reportUrl" : "https://Sdavid85.github.io/conduit/5//#testresult/e6774f4cf4c05f20",
+      "status" : "broken",
+      "statusDetails" : "FileNotFoundError: [Errno 2] No such file or directory: './database.csv'",
+      "time" : {
+        "start" : 1627410609609,
+        "stop" : 1627410615751,
+        "duration" : 6142
+      }
+    }, {
+      "uid" : "f454cb59146b0965",
+      "reportUrl" : "https://Sdavid85.github.io/conduit/3//#testresult/f454cb59146b0965",
+      "status" : "broken",
+      "statusDetails" : "FileNotFoundError: [Errno 2] No such file or directory: 'database.csv'",
+      "time" : {
+        "start" : 1627410295439,
+        "stop" : 1627410301387,
+        "duration" : 5948
+      }
+    }, {
+      "uid" : "7f095ea3097aef5c",
+      "reportUrl" : "https://Sdavid85.github.io/conduit/4//#testresult/7f095ea3097aef5c",
+      "status" : "broken",
+      "statusDetails" : "FileNotFoundError: [Errno 2] No such file or directory: './database.csv'",
+      "time" : {
+        "start" : 1627410255549,
+        "stop" : 1627410261795,
+        "duration" : 6246
+      }
+    }, {
+      "uid" : "56fa763e14123c03",
+      "reportUrl" : "https://Sdavid85.github.io/conduit/3//#testresult/56fa763e14123c03",
+      "status" : "broken",
+      "statusDetails" : "FileNotFoundError: [Errno 2] No such file or directory: 'database.csv'",
+      "time" : {
+        "start" : 1627409722302,
+        "stop" : 1627409728468,
+        "duration" : 6166
+      }
+    }, {
+      "uid" : "31b9cf6ae7b6c4e5",
+      "reportUrl" : "https://Sdavid85.github.io/conduit/1//#testresult/31b9cf6ae7b6c4e5",
+      "status" : "broken",
+      "statusDetails" : "ModuleNotFoundError: No module named 'webdriver_manager'",
+      "time" : {
+        "start" : 1627288974210,
+        "stop" : 1627288974211,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "73be8f610f3c19e",
+      "reportUrl" : "https://Sdavid85.github.io/conduit/1//#testresult/73be8f610f3c19e",
+      "status" : "broken",
+      "statusDetails" : "ModuleNotFoundError: No module named 'webdriver_manager'",
+      "time" : {
+        "start" : 1627288056215,
+        "stop" : 1627288056215,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "45a992772329746d",
+      "reportUrl" : "https://Sdavid85.github.io/conduit/2//#testresult/45a992772329746d",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <a href=\"#/login\" class=\"nav-link router-link-exact-active active\" aria-current=\"page\">...</a> is not clickable at point (637, 26). Other element would receive the click: <div class=\"swal-overlay swal-overlay--show-modal\" tabindex=\"-1\">...</div>\n  (Session info: headless chrome=91.0.4472.164)",
+      "time" : {
+        "start" : 1627287907803,
+        "stop" : 1627287913148,
+        "duration" : 5345
+      }
+    }, {
+      "uid" : "968e061333b30419",
+      "reportUrl" : "https://Sdavid85.github.io/conduit/1//#testresult/968e061333b30419",
+      "status" : "broken",
+      "statusDetails" : "ModuleNotFoundError: No module named 'webdriver_manager'",
+      "time" : {
+        "start" : 1627287339096,
+        "stop" : 1627287339096,
+        "duration" : 0
+      }
+    } ]
+  },
+  "016bd065a9e4cab8407ab711566d39ca" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 6,
+      "skipped" : 0,
+      "passed" : 9,
+      "unknown" : 0,
+      "total" : 15
+    },
+    "items" : [ {
+      "uid" : "3684f3cb8ac52e34",
+      "reportUrl" : "https://Sdavid85.github.io/conduit/9//#testresult/3684f3cb8ac52e34",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.StaleElementReferenceException: Message: stale element reference: element is not attached to the page document\n  (Session info: headless chrome=92.0.4515.131)",
+      "time" : {
+        "start" : 1628617179162,
+        "stop" : 1628617189296,
+        "duration" : 10134
+      }
+    }, {
+      "uid" : "74f871d444a6d73",
+      "reportUrl" : "https://Sdavid85.github.io/conduit/8//#testresult/74f871d444a6d73",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: unknown error: Chrome failed to start: exited abnormally.\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)",
+      "time" : {
+        "start" : 1628616688177,
+        "stop" : 1628616691232,
+        "duration" : 3055
+      }
+    }, {
+      "uid" : "1b7e93ae195384e8",
+      "reportUrl" : "https://Sdavid85.github.io/conduit/3//#testresult/1b7e93ae195384e8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628255315621,
+        "stop" : 1628255323553,
+        "duration" : 7932
+      }
+    }, {
+      "uid" : "f519b506edd68725",
+      "reportUrl" : "https://Sdavid85.github.io/conduit/7//#testresult/f519b506edd68725",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628255091587,
+        "stop" : 1628255101580,
+        "duration" : 9993
+      }
+    }, {
+      "uid" : "147c8256cb5a4750",
+      "reportUrl" : "https://Sdavid85.github.io/conduit/3//#testresult/147c8256cb5a4750",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627411122158,
+        "stop" : 1627411130168,
+        "duration" : 8010
+      }
+    }, {
+      "uid" : "f263854f83357c4",
+      "reportUrl" : "https://Sdavid85.github.io/conduit/6//#testresult/f263854f83357c4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627411061688,
+        "stop" : 1627411069574,
+        "duration" : 7886
+      }
+    }, {
+      "uid" : "238415e3af713daf",
+      "reportUrl" : "https://Sdavid85.github.io/conduit/3//#testresult/238415e3af713daf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627410594011,
+        "stop" : 1627410601917,
+        "duration" : 7906
+      }
+    }, {
+      "uid" : "6861ec91c2041c36",
+      "reportUrl" : "https://Sdavid85.github.io/conduit/5//#testresult/6861ec91c2041c36",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627410569045,
+        "stop" : 1627410577069,
+        "duration" : 8024
+      }
+    }, {
+      "uid" : "e68dd5499e4595ea",
+      "reportUrl" : "https://Sdavid85.github.io/conduit/3//#testresult/e68dd5499e4595ea",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627410255859,
+        "stop" : 1627410263664,
+        "duration" : 7805
+      }
+    }, {
+      "uid" : "e84576c121898a4",
+      "reportUrl" : "https://Sdavid85.github.io/conduit/4//#testresult/e84576c121898a4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627410213961,
+        "stop" : 1627410222236,
+        "duration" : 8275
+      }
+    }, {
+      "uid" : "480800013d68b7e6",
+      "reportUrl" : "https://Sdavid85.github.io/conduit/3//#testresult/480800013d68b7e6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627409681625,
+        "stop" : 1627409689648,
+        "duration" : 8023
+      }
+    }, {
+      "uid" : "c3a88b2be958b74c",
+      "reportUrl" : "https://Sdavid85.github.io/conduit/1//#testresult/c3a88b2be958b74c",
+      "status" : "broken",
+      "statusDetails" : "ModuleNotFoundError: No module named 'webdriver_manager'",
+      "time" : {
+        "start" : 1627288974196,
+        "stop" : 1627288974196,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "697673a4b15406f2",
+      "reportUrl" : "https://Sdavid85.github.io/conduit/1//#testresult/697673a4b15406f2",
+      "status" : "broken",
+      "statusDetails" : "ModuleNotFoundError: No module named 'webdriver_manager'",
+      "time" : {
+        "start" : 1627288056200,
+        "stop" : 1627288056200,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "b4c6c529f513ba64",
+      "reportUrl" : "https://Sdavid85.github.io/conduit/2//#testresult/b4c6c529f513ba64",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@id=\"cookie-policy-panel\"]/div/div[2]/button[2]\"}\n  (Session info: headless chrome=91.0.4472.164)",
+      "time" : {
+        "start" : 1627287903072,
+        "stop" : 1627287904701,
+        "duration" : 1629
+      }
+    }, {
+      "uid" : "1d7bb1802aea035f",
+      "reportUrl" : "https://Sdavid85.github.io/conduit/1//#testresult/1d7bb1802aea035f",
+      "status" : "broken",
+      "statusDetails" : "ModuleNotFoundError: No module named 'webdriver_manager'",
+      "time" : {
+        "start" : 1627287339084,
+        "stop" : 1627287339085,
+        "duration" : 1
+      }
+    } ]
+  },
+  "1dc53b122e059bcc13ce9bd7929f4c05" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 4,
+      "skipped" : 0,
+      "passed" : 11,
+      "unknown" : 0,
+      "total" : 15
+    },
+    "items" : [ {
+      "uid" : "c3b366fa3db15058",
+      "reportUrl" : "https://Sdavid85.github.io/conduit/9//#testresult/c3b366fa3db15058",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628617202936,
+        "stop" : 1628617215134,
+        "duration" : 12198
+      }
+    }, {
+      "uid" : "e802464b7b772d73",
+      "reportUrl" : "https://Sdavid85.github.io/conduit/8//#testresult/e802464b7b772d73",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628616721663,
+        "stop" : 1628616733768,
+        "duration" : 12105
+      }
+    }, {
+      "uid" : "f73763ae16e0b0ea",
+      "reportUrl" : "https://Sdavid85.github.io/conduit/3//#testresult/f73763ae16e0b0ea",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628255337211,
+        "stop" : 1628255349375,
+        "duration" : 12164
+      }
+    }, {
+      "uid" : "b645f02be179502c",
+      "reportUrl" : "https://Sdavid85.github.io/conduit/7//#testresult/b645f02be179502c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628255135765,
+        "stop" : 1628255148613,
+        "duration" : 12848
+      }
+    }, {
+      "uid" : "4cde3292fdab8b08",
+      "reportUrl" : "https://Sdavid85.github.io/conduit/3//#testresult/4cde3292fdab8b08",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627411150453,
+        "stop" : 1627411162732,
+        "duration" : 12279
+      }
+    }, {
+      "uid" : "41e8fc0cf0defe0a",
+      "reportUrl" : "https://Sdavid85.github.io/conduit/6//#testresult/41e8fc0cf0defe0a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627411089534,
+        "stop" : 1627411101611,
+        "duration" : 12077
+      }
+    }, {
+      "uid" : "830aa6cfb992a0c1",
+      "reportUrl" : "https://Sdavid85.github.io/conduit/3//#testresult/830aa6cfb992a0c1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627410622260,
+        "stop" : 1627410634398,
+        "duration" : 12138
+      }
+    }, {
+      "uid" : "3b112d1e7038cc99",
+      "reportUrl" : "https://Sdavid85.github.io/conduit/5//#testresult/3b112d1e7038cc99",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627410597278,
+        "stop" : 1627410609606,
+        "duration" : 12328
+      }
+    }, {
+      "uid" : "f71e8214558998da",
+      "reportUrl" : "https://Sdavid85.github.io/conduit/3//#testresult/f71e8214558998da",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627410283415,
+        "stop" : 1627410295437,
+        "duration" : 12022
+      }
+    }, {
+      "uid" : "24255b1db8f9dfd3",
+      "reportUrl" : "https://Sdavid85.github.io/conduit/4//#testresult/24255b1db8f9dfd3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627410243100,
+        "stop" : 1627410255545,
+        "duration" : 12445
+      }
+    }, {
+      "uid" : "99dce994c737eb3e",
+      "reportUrl" : "https://Sdavid85.github.io/conduit/3//#testresult/99dce994c737eb3e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627409709996,
+        "stop" : 1627409722299,
+        "duration" : 12303
+      }
+    }, {
+      "uid" : "514d22bf30b2ddb4",
+      "reportUrl" : "https://Sdavid85.github.io/conduit/1//#testresult/514d22bf30b2ddb4",
+      "status" : "broken",
+      "statusDetails" : "ModuleNotFoundError: No module named 'webdriver_manager'",
+      "time" : {
+        "start" : 1627288974205,
+        "stop" : 1627288974206,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "9459b7e5e475b6c1",
+      "reportUrl" : "https://Sdavid85.github.io/conduit/1//#testresult/9459b7e5e475b6c1",
+      "status" : "broken",
+      "statusDetails" : "ModuleNotFoundError: No module named 'webdriver_manager'",
+      "time" : {
+        "start" : 1627288056210,
+        "stop" : 1627288056211,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "322d3380e5c41e2d",
+      "reportUrl" : "https://Sdavid85.github.io/conduit/2//#testresult/322d3380e5c41e2d",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@id=\"cookie-policy-panel\"]/div/div[2]/button[2]\"}\n  (Session info: headless chrome=91.0.4472.164)",
+      "time" : {
+        "start" : 1627287906313,
+        "stop" : 1627287907763,
+        "duration" : 1450
+      }
+    }, {
+      "uid" : "6e970be2260fed64",
+      "reportUrl" : "https://Sdavid85.github.io/conduit/1//#testresult/6e970be2260fed64",
+      "status" : "broken",
+      "statusDetails" : "ModuleNotFoundError: No module named 'webdriver_manager'",
+      "time" : {
+        "start" : 1627287339092,
+        "stop" : 1627287339093,
+        "duration" : 1
+      }
+    } ]
+  },
+  "ab5cee0238ca14edb0356efbac54c234" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 4,
+      "skipped" : 0,
+      "passed" : 11,
+      "unknown" : 0,
+      "total" : 15
+    },
+    "items" : [ {
+      "uid" : "f4a231980c3dc4aa",
+      "reportUrl" : "https://Sdavid85.github.io/conduit/9//#testresult/f4a231980c3dc4aa",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628617160438,
+        "stop" : 1628617179103,
+        "duration" : 18665
+      }
+    }, {
+      "uid" : "fd460b5dac2a0a8b",
+      "reportUrl" : "https://Sdavid85.github.io/conduit/8//#testresult/fd460b5dac2a0a8b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628616667630,
+        "stop" : 1628616688119,
+        "duration" : 20489
+      }
+    }, {
+      "uid" : "903a59357851284d",
+      "reportUrl" : "https://Sdavid85.github.io/conduit/3//#testresult/903a59357851284d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628255301812,
+        "stop" : 1628255315562,
+        "duration" : 13750
+      }
+    }, {
+      "uid" : "7eea38846c2a22cc",
+      "reportUrl" : "https://Sdavid85.github.io/conduit/7//#testresult/7eea38846c2a22cc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628255082455,
+        "stop" : 1628255091516,
+        "duration" : 9061
+      }
+    }, {
+      "uid" : "d559bcef90e58e0e",
+      "reportUrl" : "https://Sdavid85.github.io/conduit/3//#testresult/d559bcef90e58e0e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627411108644,
+        "stop" : 1627411122154,
+        "duration" : 13510
+      }
+    }, {
+      "uid" : "e488772d1926c37e",
+      "reportUrl" : "https://Sdavid85.github.io/conduit/6//#testresult/e488772d1926c37e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627411048538,
+        "stop" : 1627411061684,
+        "duration" : 13146
+      }
+    }, {
+      "uid" : "394a355edd33c29b",
+      "reportUrl" : "https://Sdavid85.github.io/conduit/3//#testresult/394a355edd33c29b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627410581055,
+        "stop" : 1627410594007,
+        "duration" : 12952
+      }
+    }, {
+      "uid" : "bbd35417586737b6",
+      "reportUrl" : "https://Sdavid85.github.io/conduit/5//#testresult/bbd35417586737b6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627410551900,
+        "stop" : 1627410569041,
+        "duration" : 17141
+      }
+    }, {
+      "uid" : "737fb6b26cb6b212",
+      "reportUrl" : "https://Sdavid85.github.io/conduit/3//#testresult/737fb6b26cb6b212",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627410243104,
+        "stop" : 1627410255856,
+        "duration" : 12752
+      }
+    }, {
+      "uid" : "3b6d3c0909ce5aa8",
+      "reportUrl" : "https://Sdavid85.github.io/conduit/4//#testresult/3b6d3c0909ce5aa8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627410194702,
+        "stop" : 1627410213957,
+        "duration" : 19255
+      }
+    }, {
+      "uid" : "54a2276d5ab06e76",
+      "reportUrl" : "https://Sdavid85.github.io/conduit/3//#testresult/54a2276d5ab06e76",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627409657696,
+        "stop" : 1627409681620,
+        "duration" : 23924
+      }
+    }, {
+      "uid" : "9a478ea0d4e4c227",
+      "reportUrl" : "https://Sdavid85.github.io/conduit/1//#testresult/9a478ea0d4e4c227",
+      "status" : "broken",
+      "statusDetails" : "ModuleNotFoundError: No module named 'webdriver_manager'",
+      "time" : {
+        "start" : 1627288974042,
+        "stop" : 1627288974159,
+        "duration" : 117
+      }
+    }, {
+      "uid" : "74789d1a347c6e88",
+      "reportUrl" : "https://Sdavid85.github.io/conduit/1//#testresult/74789d1a347c6e88",
+      "status" : "broken",
+      "statusDetails" : "ModuleNotFoundError: No module named 'webdriver_manager'",
+      "time" : {
+        "start" : 1627288056054,
+        "stop" : 1627288056144,
+        "duration" : 90
+      }
+    }, {
+      "uid" : "a9568a411726dd9d",
+      "reportUrl" : "https://Sdavid85.github.io/conduit/2//#testresult/a9568a411726dd9d",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@id=\"cookie-policy-panel\"]/div/div[2]/button[2]\"}\n  (Session info: headless chrome=91.0.4472.164)",
+      "time" : {
+        "start" : 1627287896090,
+        "stop" : 1627287902976,
+        "duration" : 6886
+      }
+    }, {
+      "uid" : "6a29ef8848b67e13",
+      "reportUrl" : "https://Sdavid85.github.io/conduit/1//#testresult/6a29ef8848b67e13",
+      "status" : "broken",
+      "statusDetails" : "ModuleNotFoundError: No module named 'webdriver_manager'",
+      "time" : {
+        "start" : 1627287338983,
+        "stop" : 1627287339056,
+        "duration" : 73
+      }
+    } ]
+  }
+}

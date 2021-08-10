@@ -4,11 +4,20 @@
       "failed" : 0,
       "broken" : 3,
       "skipped" : 0,
-      "passed" : 11,
+      "passed" : 12,
       "unknown" : 0,
-      "total" : 14
+      "total" : 15
     },
     "items" : [ {
+      "uid" : "84af03fd1ee9ca9",
+      "reportUrl" : "https://Sdavid85.github.io/conduit/9//#testresult/84af03fd1ee9ca9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628617238256,
+        "stop" : 1628617249482,
+        "duration" : 11226
+      }
+    }, {
       "uid" : "e5cfa33789ba9da1",
       "reportUrl" : "https://Sdavid85.github.io/conduit/8//#testresult/e5cfa33789ba9da1",
       "status" : "passed",
@@ -141,14 +150,24 @@
   },
   "e25e00115f6ccb7dc52c7b05a4c5a27d" : {
     "statistic" : {
-      "failed" : 1,
+      "failed" : 2,
       "broken" : 4,
       "skipped" : 0,
       "passed" : 9,
       "unknown" : 0,
-      "total" : 14
+      "total" : 15
     },
     "items" : [ {
+      "uid" : "ef84839461c56bba",
+      "reportUrl" : "https://Sdavid85.github.io/conduit/9//#testresult/ef84839461c56bba",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 'Lorem ipsum dolor sit amet' == 'Új bejegyzés'\n  - Új bejegyzés\n  + Lorem ipsum dolor sit amet",
+      "time" : {
+        "start" : 1628617189375,
+        "stop" : 1628617202929,
+        "duration" : 13554
+      }
+    }, {
       "uid" : "d4ac261d5525e791",
       "reportUrl" : "https://Sdavid85.github.io/conduit/8//#testresult/d4ac261d5525e791",
       "status" : "passed",
@@ -283,14 +302,24 @@
   },
   "1ea1b9053b575423a3e77b2d2adc5fb9" : {
     "statistic" : {
-      "failed" : 0,
+      "failed" : 1,
       "broken" : 11,
       "skipped" : 0,
       "passed" : 3,
       "unknown" : 0,
-      "total" : 14
+      "total" : 15
     },
     "items" : [ {
+      "uid" : "d497629c3b65af1a",
+      "reportUrl" : "https://Sdavid85.github.io/conduit/9//#testresult/d497629c3b65af1a",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 4 == 3\n +  where 4 = len(['Új bejegyzés', 'Első', 'Második', 'Harmadik'])\n +  and   3 = len(['Első', 'Második', 'Harmadik'])",
+      "time" : {
+        "start" : 1628617215138,
+        "stop" : 1628617238194,
+        "duration" : 23056
+      }
+    }, {
       "uid" : "48297fdbd21e34bb",
       "reportUrl" : "https://Sdavid85.github.io/conduit/8//#testresult/48297fdbd21e34bb",
       "status" : "passed",
@@ -432,13 +461,23 @@
   "016bd065a9e4cab8407ab711566d39ca" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 5,
+      "broken" : 6,
       "skipped" : 0,
       "passed" : 9,
       "unknown" : 0,
-      "total" : 14
+      "total" : 15
     },
     "items" : [ {
+      "uid" : "3684f3cb8ac52e34",
+      "reportUrl" : "https://Sdavid85.github.io/conduit/9//#testresult/3684f3cb8ac52e34",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.StaleElementReferenceException: Message: stale element reference: element is not attached to the page document\n  (Session info: headless chrome=92.0.4515.131)",
+      "time" : {
+        "start" : 1628617179162,
+        "stop" : 1628617189296,
+        "duration" : 10134
+      }
+    }, {
       "uid" : "74f871d444a6d73",
       "reportUrl" : "https://Sdavid85.github.io/conduit/8//#testresult/74f871d444a6d73",
       "status" : "broken",
@@ -576,11 +615,20 @@
       "failed" : 0,
       "broken" : 4,
       "skipped" : 0,
-      "passed" : 10,
+      "passed" : 11,
       "unknown" : 0,
-      "total" : 14
+      "total" : 15
     },
     "items" : [ {
+      "uid" : "c3b366fa3db15058",
+      "reportUrl" : "https://Sdavid85.github.io/conduit/9//#testresult/c3b366fa3db15058",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628617202936,
+        "stop" : 1628617215134,
+        "duration" : 12198
+      }
+    }, {
       "uid" : "e802464b7b772d73",
       "reportUrl" : "https://Sdavid85.github.io/conduit/8//#testresult/e802464b7b772d73",
       "status" : "passed",
@@ -717,11 +765,20 @@
       "failed" : 0,
       "broken" : 4,
       "skipped" : 0,
-      "passed" : 10,
+      "passed" : 11,
       "unknown" : 0,
-      "total" : 14
+      "total" : 15
     },
     "items" : [ {
+      "uid" : "f4a231980c3dc4aa",
+      "reportUrl" : "https://Sdavid85.github.io/conduit/9//#testresult/f4a231980c3dc4aa",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628617160438,
+        "stop" : 1628617179103,
+        "duration" : 18665
+      }
+    }, {
       "uid" : "fd460b5dac2a0a8b",
       "reportUrl" : "https://Sdavid85.github.io/conduit/8//#testresult/fd460b5dac2a0a8b",
       "status" : "passed",
