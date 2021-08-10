@@ -1,3 +1,115 @@
 [ {
+  "buildOrder" : 10,
+  "reportUrl" : "https://Sdavid85.github.io/conduit/10/",
+  "reportName" : "Allure Report with history",
+  "data" : {
+    "duration" : 106860
+  }
+}, {
+  "buildOrder" : 9,
+  "reportUrl" : "https://Sdavid85.github.io/conduit/9/",
+  "reportName" : "Allure Report with history",
+  "data" : {
+    "duration" : 89044
+  }
+}, {
+  "buildOrder" : 8,
+  "reportUrl" : "https://Sdavid85.github.io/conduit/8/",
+  "reportName" : "Allure Report with history",
+  "data" : {
+    "duration" : 100290
+  }
+}, {
+  "buildOrder" : 3,
+  "reportUrl" : "https://Sdavid85.github.io/conduit/3/",
+  "reportName" : "Allure Report with history",
+  "data" : {
+    "duration" : 62786
+  }
+}, {
+  "buildOrder" : 7,
+  "reportUrl" : "https://Sdavid85.github.io/conduit/7/",
+  "reportName" : "Allure Report with history",
+  "data" : {
+    "duration" : 100252
+  }
+}, {
+  "buildOrder" : 3,
+  "reportUrl" : "https://Sdavid85.github.io/conduit/3/",
+  "reportName" : "Allure Report with history",
+  "data" : {
+    "duration" : 69484
+  }
+}, {
+  "buildOrder" : 6,
+  "reportUrl" : "https://Sdavid85.github.io/conduit/6/",
+  "reportName" : "Allure Report with history",
+  "data" : {
+    "duration" : 87288
+  }
+}, {
+  "buildOrder" : 3,
+  "reportUrl" : "https://Sdavid85.github.io/conduit/3/",
+  "reportName" : "Allure Report with history",
+  "data" : {
+    "duration" : 68637
+  }
+}, {
+  "buildOrder" : 5,
+  "reportUrl" : "https://Sdavid85.github.io/conduit/5/",
+  "reportName" : "Allure Report with history",
+  "data" : {
+    "duration" : 73051
+  }
+}, {
+  "buildOrder" : 3,
+  "reportUrl" : "https://Sdavid85.github.io/conduit/3/",
+  "reportName" : "Allure Report with history",
+  "data" : {
+    "duration" : 66188
+  }
+}, {
+  "buildOrder" : 4,
+  "reportUrl" : "https://Sdavid85.github.io/conduit/4/",
+  "reportName" : "Allure Report with history",
+  "data" : {
+    "duration" : 76384
+  }
+}, {
+  "buildOrder" : 3,
+  "reportUrl" : "https://Sdavid85.github.io/conduit/3/",
+  "reportName" : "Allure Report with history",
+  "data" : {
+    "duration" : 79951
+  }
+}, {
+  "buildOrder" : 1,
+  "reportUrl" : "https://Sdavid85.github.io/conduit/1/",
+  "reportName" : "Allure Report with history",
+  "data" : {
+    "duration" : 174
+  }
+}, {
+  "buildOrder" : 1,
+  "reportUrl" : "https://Sdavid85.github.io/conduit/1/",
+  "reportName" : "Allure Report with history",
+  "data" : {
+    "duration" : 166
+  }
+}, {
+  "buildOrder" : 2,
+  "reportUrl" : "https://Sdavid85.github.io/conduit/2/",
+  "reportName" : "Allure Report with history",
+  "data" : {
+    "duration" : 23905
+  }
+}, {
+  "buildOrder" : 1,
+  "reportUrl" : "https://Sdavid85.github.io/conduit/1/",
+  "reportName" : "Allure Report with history",
+  "data" : {
+    "duration" : 117
+  }
+}, {
   "data" : { }
 } ]

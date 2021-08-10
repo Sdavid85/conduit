@@ -4,11 +4,20 @@
       "failed" : 0,
       "broken" : 3,
       "skipped" : 0,
-      "passed" : 12,
+      "passed" : 13,
       "unknown" : 0,
-      "total" : 15
+      "total" : 16
     },
     "items" : [ {
+      "uid" : "7726149a0572373",
+      "reportUrl" : "https://Sdavid85.github.io/conduit/10//#testresult/7726149a0572373",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628618113854,
+        "stop" : 1628618124934,
+        "duration" : 11080
+      }
+    }, {
       "uid" : "84af03fd1ee9ca9",
       "reportUrl" : "https://Sdavid85.github.io/conduit/9//#testresult/84af03fd1ee9ca9",
       "status" : "passed",
@@ -153,11 +162,20 @@
       "failed" : 2,
       "broken" : 4,
       "skipped" : 0,
-      "passed" : 9,
+      "passed" : 10,
       "unknown" : 0,
-      "total" : 15
+      "total" : 16
     },
     "items" : [ {
+      "uid" : "f504bee1a3976253",
+      "reportUrl" : "https://Sdavid85.github.io/conduit/10//#testresult/f504bee1a3976253",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628618049832,
+        "stop" : 1628618080006,
+        "duration" : 30174
+      }
+    }, {
       "uid" : "ef84839461c56bba",
       "reportUrl" : "https://Sdavid85.github.io/conduit/9//#testresult/ef84839461c56bba",
       "status" : "failed",
@@ -305,11 +323,20 @@
       "failed" : 1,
       "broken" : 11,
       "skipped" : 0,
-      "passed" : 3,
+      "passed" : 4,
       "unknown" : 0,
-      "total" : 15
+      "total" : 16
     },
     "items" : [ {
+      "uid" : "3dd068d6652683f8",
+      "reportUrl" : "https://Sdavid85.github.io/conduit/10//#testresult/3dd068d6652683f8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628618091133,
+        "stop" : 1628618113849,
+        "duration" : 22716
+      }
+    }, {
       "uid" : "d497629c3b65af1a",
       "reportUrl" : "https://Sdavid85.github.io/conduit/9//#testresult/d497629c3b65af1a",
       "status" : "failed",
@@ -463,11 +490,20 @@
       "failed" : 0,
       "broken" : 6,
       "skipped" : 0,
-      "passed" : 9,
+      "passed" : 10,
       "unknown" : 0,
-      "total" : 15
+      "total" : 16
     },
     "items" : [ {
+      "uid" : "78cca286cd255803",
+      "reportUrl" : "https://Sdavid85.github.io/conduit/10//#testresult/78cca286cd255803",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628618038922,
+        "stop" : 1628618049829,
+        "duration" : 10907
+      }
+    }, {
       "uid" : "3684f3cb8ac52e34",
       "reportUrl" : "https://Sdavid85.github.io/conduit/9//#testresult/3684f3cb8ac52e34",
       "status" : "broken",
@@ -615,11 +651,20 @@
       "failed" : 0,
       "broken" : 4,
       "skipped" : 0,
-      "passed" : 11,
+      "passed" : 12,
       "unknown" : 0,
-      "total" : 15
+      "total" : 16
     },
     "items" : [ {
+      "uid" : "62cbb7d0393c220e",
+      "reportUrl" : "https://Sdavid85.github.io/conduit/10//#testresult/62cbb7d0393c220e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628618080009,
+        "stop" : 1628618091129,
+        "duration" : 11120
+      }
+    }, {
       "uid" : "c3b366fa3db15058",
       "reportUrl" : "https://Sdavid85.github.io/conduit/9//#testresult/c3b366fa3db15058",
       "status" : "passed",
@@ -765,11 +810,20 @@
       "failed" : 0,
       "broken" : 4,
       "skipped" : 0,
-      "passed" : 11,
+      "passed" : 12,
       "unknown" : 0,
-      "total" : 15
+      "total" : 16
     },
     "items" : [ {
+      "uid" : "97762fd7ac723748",
+      "reportUrl" : "https://Sdavid85.github.io/conduit/10//#testresult/97762fd7ac723748",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628618018074,
+        "stop" : 1628618038864,
+        "duration" : 20790
+      }
+    }, {
       "uid" : "f4a231980c3dc4aa",
       "reportUrl" : "https://Sdavid85.github.io/conduit/9//#testresult/f4a231980c3dc4aa",
       "status" : "passed",
