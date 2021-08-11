@@ -13,7 +13,7 @@ def test_signinout():
 
     try:
         driver.get("http://localhost:1667/#/")
-
+        cookie_panel = driver.find_element_by_id('cookie-policy-panel')
         # Accept cookies
         accept_btn = driver.find_element_by_xpath('//*[@id="cookie-policy-panel"]/div/div[2]/button[2]')
         accept_btn.click()
@@ -50,9 +50,18 @@ def test_signinout():
         # Log out check
         assert (login.text == "Sign in")
 
-        # Cookies management check
+        # Cookie management check
+        driver.get("http://localhost:1667/#/")
+        time.sleep(3)
 
+        # Első próbálkozás
+        # assert not cookie_panel.is_displayed()
 
+        # Második próbálkozás
+        # if cookie_panel.is_displayed():
+        #    print("Element found!")
+        # else:
+        #    print("Element not found!")
     finally:
         pass
     # driver.close()
