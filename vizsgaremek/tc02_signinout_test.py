@@ -54,10 +54,10 @@ def test_signinout():
         driver.get("http://localhost:1667/#/")
         time.sleep(3)
 
-        # Első próbálkozás
+        # Első próbálkozás:
         # assert not cookie_panel.is_displayed()
 
-        # Második próbálkozás
+        # Második próbálkozás:
         # if cookie_panel.is_displayed():
         #    print("Element found!")
         # else:
