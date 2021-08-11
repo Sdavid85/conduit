@@ -1,5 +1,43 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
-  "children" : [ ],
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError: assert 'Lorem ipsum dolor sit amet' == 'Új bejegyzés'\n  - Új bejegyzés\n  + Lorem ipsum dolor sit amet",
+      "children" : [ {
+        "name" : "test_add_data",
+        "uid" : "13a1c7f1423a4eb8",
+        "parentUid" : "356f81828c1e99a30ef50bec07ae9c29",
+        "status" : "failed",
+        "time" : {
+          "start" : 1628663136045,
+          "stop" : 1628663149857,
+          "duration" : 13812
+        },
+        "flaky" : true,
+        "newFailed" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "356f81828c1e99a30ef50bec07ae9c29"
+    }, {
+      "name" : "AssertionError: assert 4 == 3\n +  where 4 = len(['Új bejegyzés', 'Első', 'Második', 'Harmadik'])\n +  and   3 = len(['Első', 'Második', 'Harmadik'])",
+      "children" : [ {
+        "name" : "test_add_database",
+        "uid" : "8d8d719f8767dfee",
+        "parentUid" : "feef9ae6a116be4ab7d98e313cf194e5",
+        "status" : "failed",
+        "time" : {
+          "start" : 1628663161197,
+          "stop" : 1628663184488,
+          "duration" : 23291
+        },
+        "flaky" : true,
+        "newFailed" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "feef9ae6a116be4ab7d98e313cf194e5"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ],
   "name" : "categories"
 }

@@ -4,11 +4,20 @@
       "failed" : 0,
       "broken" : 3,
       "skipped" : 0,
-      "passed" : 14,
+      "passed" : 15,
       "unknown" : 0,
-      "total" : 17
+      "total" : 18
     },
     "items" : [ {
+      "uid" : "837a913175d815d9",
+      "reportUrl" : "https://Sdavid85.github.io/conduit/12//#testresult/837a913175d815d9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628663184554,
+        "stop" : 1628663195959,
+        "duration" : 11405
+      }
+    }, {
       "uid" : "d90829134b4210a",
       "reportUrl" : "https://Sdavid85.github.io/conduit/11//#testresult/d90829134b4210a",
       "status" : "passed",
@@ -168,14 +177,24 @@
   },
   "e25e00115f6ccb7dc52c7b05a4c5a27d" : {
     "statistic" : {
-      "failed" : 2,
+      "failed" : 3,
       "broken" : 4,
       "skipped" : 0,
       "passed" : 11,
       "unknown" : 0,
-      "total" : 17
+      "total" : 18
     },
     "items" : [ {
+      "uid" : "13a1c7f1423a4eb8",
+      "reportUrl" : "https://Sdavid85.github.io/conduit/12//#testresult/13a1c7f1423a4eb8",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 'Lorem ipsum dolor sit amet' == 'Új bejegyzés'\n  - Új bejegyzés\n  + Lorem ipsum dolor sit amet",
+      "time" : {
+        "start" : 1628663136045,
+        "stop" : 1628663149857,
+        "duration" : 13812
+      }
+    }, {
       "uid" : "48f2edf4dd20f4da",
       "reportUrl" : "https://Sdavid85.github.io/conduit/11//#testresult/48f2edf4dd20f4da",
       "status" : "passed",
@@ -338,14 +357,24 @@
   },
   "1ea1b9053b575423a3e77b2d2adc5fb9" : {
     "statistic" : {
-      "failed" : 1,
+      "failed" : 2,
       "broken" : 11,
       "skipped" : 0,
       "passed" : 5,
       "unknown" : 0,
-      "total" : 17
+      "total" : 18
     },
     "items" : [ {
+      "uid" : "8d8d719f8767dfee",
+      "reportUrl" : "https://Sdavid85.github.io/conduit/12//#testresult/8d8d719f8767dfee",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 4 == 3\n +  where 4 = len(['Új bejegyzés', 'Első', 'Második', 'Harmadik'])\n +  and   3 = len(['Első', 'Második', 'Harmadik'])",
+      "time" : {
+        "start" : 1628663161197,
+        "stop" : 1628663184488,
+        "duration" : 23291
+      }
+    }, {
       "uid" : "f87adb733af7085",
       "reportUrl" : "https://Sdavid85.github.io/conduit/11//#testresult/f87adb733af7085",
       "status" : "passed",
@@ -517,11 +546,20 @@
       "failed" : 0,
       "broken" : 6,
       "skipped" : 0,
-      "passed" : 11,
+      "passed" : 12,
       "unknown" : 0,
-      "total" : 17
+      "total" : 18
     },
     "items" : [ {
+      "uid" : "e0747855f53a67da",
+      "reportUrl" : "https://Sdavid85.github.io/conduit/12//#testresult/e0747855f53a67da",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628663121800,
+        "stop" : 1628663136039,
+        "duration" : 14239
+      }
+    }, {
       "uid" : "37a1cbced9e378f9",
       "reportUrl" : "https://Sdavid85.github.io/conduit/11//#testresult/37a1cbced9e378f9",
       "status" : "passed",
@@ -687,11 +725,20 @@
       "failed" : 0,
       "broken" : 4,
       "skipped" : 0,
-      "passed" : 13,
+      "passed" : 14,
       "unknown" : 0,
-      "total" : 17
+      "total" : 18
     },
     "items" : [ {
+      "uid" : "5b521fa05e079729",
+      "reportUrl" : "https://Sdavid85.github.io/conduit/12//#testresult/5b521fa05e079729",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628663149903,
+        "stop" : 1628663161193,
+        "duration" : 11290
+      }
+    }, {
       "uid" : "7475de9ff8df958c",
       "reportUrl" : "https://Sdavid85.github.io/conduit/11//#testresult/7475de9ff8df958c",
       "status" : "passed",
@@ -855,11 +902,20 @@
       "failed" : 0,
       "broken" : 4,
       "skipped" : 0,
-      "passed" : 13,
+      "passed" : 14,
       "unknown" : 0,
-      "total" : 17
+      "total" : 18
     },
     "items" : [ {
+      "uid" : "7084d74bacc1ce7d",
+      "reportUrl" : "https://Sdavid85.github.io/conduit/12//#testresult/7084d74bacc1ce7d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628663113530,
+        "stop" : 1628663121741,
+        "duration" : 8211
+      }
+    }, {
       "uid" : "4d40a6d053891a87",
       "reportUrl" : "https://Sdavid85.github.io/conduit/11//#testresult/4d40a6d053891a87",
       "status" : "passed",
